@@ -60,8 +60,8 @@ end
     address:              'smtp.163.com',
     port:                  465,
     domain:               '163.com',
-    user_name:            Setting.email_name, 
-    password:             Setting.email_password, 
+    user_name:            'your_email_name' # 你的邮箱账户
+    password:             'your_email_secret' # 邮箱秘钥,注意不是邮箱密码,是上面开通smtp功能提供的密钥
     authentication:       :plain,
     enable_starttls_auto: true,
     ssl: true
